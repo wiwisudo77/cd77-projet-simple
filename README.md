@@ -24,5 +24,5 @@ Etape 3 : Configuration du déploiement continu (CD)
   * Vérifier le déploiement
     
 NB : pour le déploiement utiliser les commandes
-docker build -t <prenom> . "Pour construire l'image correspondant à votre application"
-docker run -d -p 5000:5000 <prenom> "Pour démarrer un conteneur exécutant l'image précédente"
+* docker build -t <prenom> . "Pour construire l'image correspondant à votre application"
+* docker run -d -p 5000:5000 <prenom> "Pour démarrer un conteneur exécutant l'image précédente"
