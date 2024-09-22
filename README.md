@@ -23,6 +23,6 @@ Etape 3 : Configuration du déploiement continu (CD)
   * Pousser les modifications vers GitLab
   * Vérifier le déploiement
     
-NB : pour le déploiement utiliser les commandes
+NB : pour le déploiement utiliser les commandes suivantes sur la VM i-dsisav-ap-708
 * docker build -t <prenom> . "Pour construire l'image correspondant à votre application"
 * docker run --rm <prenom> "Pour démarrer un conteneur exécutant l'image précédente"
