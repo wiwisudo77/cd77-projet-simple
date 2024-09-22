@@ -1,9 +1,9 @@
 # cd77-projet-simple
 Objectif du projet
 
-1 - Configurer un dépôt GitLab avec un projet simple.
-2 - Mettre en place un pipeline d'intégration continue (CI) pour construire et tester le projet.
-3 - Configurer le déploiement continu (CD) pour déployer automatiquement le projet.
+  * Configurer un dépôt GitLab avec un projet simple  
+  * Mettre en place un pipeline d'intégration continue (CI) pour construire et tester le projet.
+  * Configurer le déploiement continu (CD) pour déployer automatiquement le projet.
 
 Etape 1 : Création du projet GitLab
 
@@ -25,4 +25,4 @@ Etape 3 : Configuration du déploiement continu (CD)
     
 NB : pour le déploiement utiliser les commandes
 * docker build -t <prenom> . "Pour construire l'image correspondant à votre application"
-* docker run -d -p 5000:5000 <prenom> "Pour démarrer un conteneur exécutant l'image précédente"
+* docker run --rm <prenom> "Pour démarrer un conteneur exécutant l'image précédente"
